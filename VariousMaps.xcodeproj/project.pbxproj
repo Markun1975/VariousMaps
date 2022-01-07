@@ -13,6 +13,7 @@
 		F424B0B62788770300896463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424B0B42788770300896463 /* Main.storyboard */; };
 		F424B0B82788770500896463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424B0B72788770500896463 /* Assets.xcassets */; };
 		F424B0BB2788770500896463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424B0B92788770500896463 /* LaunchScreen.storyboard */; };
+		F424B0C42788784A00896463 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424B0C32788784A00896463 /* Map.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F424B0B72788770500896463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F424B0BA2788770500896463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F424B0BC2788770500896463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424B0C32788784A00896463 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		F424B0AD2788770300896463 /* VariousMaps */ = {
 			isa = PBXGroup;
 			children = (
+				F424B0C22788782100896463 /* storyboard */,
 				F424B0AE2788770300896463 /* AppDelegate.swift */,
 				F424B0B02788770300896463 /* SceneDelegate.swift */,
 				F424B0B22788770300896463 /* ViewController.swift */,
-				F424B0B42788770300896463 /* Main.storyboard */,
 				F424B0B72788770500896463 /* Assets.xcassets */,
 				F424B0B92788770500896463 /* LaunchScreen.storyboard */,
 				F424B0BC2788770500896463 /* Info.plist */,
 			);
 			path = VariousMaps;
+			sourceTree = "<group>";
+		};
+		F424B0C22788782100896463 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F424B0B42788770300896463 /* Main.storyboard */,
+				F424B0C32788784A00896463 /* Map.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				F424B0BB2788770500896463 /* LaunchScreen.storyboard in Resources */,
 				F424B0B82788770500896463 /* Assets.xcassets in Resources */,
 				F424B0B62788770300896463 /* Main.storyboard in Resources */,
+				F424B0C42788784A00896463 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
