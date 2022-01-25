@@ -10,4 +10,6 @@ import Foundation
 class Spot {
     let id = String()
     let name = String()
+    let address = String()
+    
 }
